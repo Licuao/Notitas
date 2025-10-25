@@ -1,0 +1,17 @@
+# Directorio de caché de Python
+__pycache__/
+
+# Carpeta de instancia (común en Flask)
+instance/
+
+# Archivos compilados
+*.pyc
+
+# Entornos virtuales (si usas uno)
+.venv/
+venv/
+env/
+
+# Archivos de logs y bases de datos de desarrollo
+*.log
+*.sqlite
