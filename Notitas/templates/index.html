@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Notitas</title></head>
+  <body>
+    <h1>Mis Notas</h1>
+    <ul>
+      {% for nota in notas %}
+        <li>
+          <strong>{{ nota.titulo }}</strong> - {{ nota.fecha_creacion.strftime('%d/%m/%Y') }}
+          <br>
+          {{ nota.contenido }}
+        </li>
+      {% else %}
+        <li>No hay notas aún.</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

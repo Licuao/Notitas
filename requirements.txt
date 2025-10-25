@@ -1,0 +1,19 @@
+Funcionalidades clave
+
+Ver lista de notas
+Título, fecha, tags opcionales.
+
+Crear nueva nota
+Campo de título + área de texto en markdown.
+
+Editar nota existente
+Muestra markdown y vista previa.
+
+Eliminar nota
+Confirmación simple.
+
+(Opcional) Búsqueda por título o etiqueta.
+
+Seguridad:
+-Cuidar las inyecciones SQL o mal ruteo
+-Validar entradas de usuario
